@@ -30,11 +30,13 @@
   "n8n": {
     "n8nNodesApiVersion": 1,
     "credentials": [
-      "dist/credentials/VikunjaApi.credentials.js"
+      "dist/credentials/VikunjaApi.credentials.js",
+      "dist/credentials/OpenAIApi.credentials.js"
     ],
     "nodes": [
       "dist/nodes/Vikunja/Vikunja.node.js",
-      "dist/nodes/Vikunja/VikunjaTrigger.node.js"
+      "dist/nodes/Vikunja/VikunjaTrigger.node.js",
+      "dist/nodes/Vikunja/VikunjaAI.node.js"
     ]
   },
   "devDependencies": {
